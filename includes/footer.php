@@ -7,10 +7,10 @@
                     <span class="sitename">Bootslander</span>
                 </a>
                 <div class="footer-contact pt-3">
-                    <p>A108 Adam Street</p>
-                    <p>New York, NY 535022</p>
-                    <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-                    <p><strong>Email:</strong> <span>info@example.com</span></p>
+                    <p></p>
+                    <p></p>
+                    <p class="mt-3"><strong>Phone:</strong> <span>+254 718654571</span></p>
+                    <p><strong>Email:</strong> <span>info@inlaw-legal.tech</span></p>
                 </div>
                 <div class="social-links d-flex mt-4">
                     <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -34,11 +34,11 @@
             <div class="col-lg-2 col-md-3 footer-links">
                 <h4>Our Services</h4>
                 <ul>
-                    <li><a href="#">Web Design</a></li>
-                    <li><a href="#">Web Development</a></li>
-                    <li><a href="#">Product Management</a></li>
-                    <li><a href="#">Marketing</a></li>
-                    <li><a href="#">Graphic Design</a></li>
+                    <li><a href="#">InLaw App</a></li>
+                    <li><a href="#">Data Entry</a></li>
+                    <li><a href="#">Document Automation</a></li>
+                    <li><a href="#">Document Digitization</a></li>
+                    <li><a href="#">Firm Analysis</a></li>
                 </ul>
             </div>
 
