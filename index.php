@@ -1,3 +1,7 @@
+<?php 
+$pageTitle = "Inlaw | Home";
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,19 +15,20 @@
 
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
-      <img src="assets/img/hero-bg-2.jpg" alt="" class="hero-bg">
+      <img src="" alt="" class="hero-bg">
 
       <div class="container">
         <div class="row gy-4 justify-content-between">
-          <div class="col-lg-4 order-lg-last hero-img" data-aos="zoom-out" data-aos-delay="100">
-            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+          <div class="col-lg-6 order-lg-last hero-img" data-aos="zoom-out" data-aos-delay="100">
+            <img src="assets/docs/heroimg.png" class="img-fluid animated" alt="">
           </div>
 
           <div class="col-lg-6  d-flex flex-column justify-content-center" data-aos="fade-in">
-            <h1>Build Your Landing Page With <span>Bootslander</span></h1>
-            <p>We are team of talented designers making websites with Bootstrap</p>
+            <h1>All In Law <br>             
+            <span>InLaw-Legal</span></h1>
+            <p> Your Trusted Partner in Legal Success</p>
             <div class="d-flex">
-              <a href="#about" class="btn-get-started">Get Started</a>
+              <a href="https://app.inlaw-legal.tech/firm-login" class="btn-get-started">Get Started</a>
               <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
             </div>
           </div>
@@ -56,9 +61,9 @@
 
           <div class="col-xl-5 content">
             <h3>About Us</h3>
-            <h2>Ducimus rerum libero reprehenderit cumque</h2>
-            <p>Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime. Enim reiciendis minus et rerum hic non. Dicta quas cum quia maiores iure. Quidem nulla qui assumenda incidunt voluptatem tempora deleniti soluta.</p>
-            <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            <h2>At InLaw, we are redefining the way legal professionals manage their practices. </h2>
+            <p>Our platform is designed to simplify and streamline legal workflows, allowing law firms and legal practitioners to focus on what they do best—delivering exceptional service to their clients.</p>
+            <a href="assets/docs/About-Us-InLaw.pdf" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
           </div>
 
           <div class="col-xl-7">
@@ -67,32 +72,32 @@
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
                 <div class="icon-box">
                   <i class="bi bi-buildings"></i>
-                  <h3>Eius provident</h3>
-                  <p>Magni repellendus vel ullam hic officia accusantium ipsa dolor omnis dolor voluptatem</p>
+                  <h3>InLaw-Legal App</h3>
+                  <p>With an all-in-one stop of features, InLaw empowers firms to manage cases, clients, courts, and documents with unmatched efficiency.</p>
                 </div>
               </div> <!-- End Icon Box -->
 
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
                 <div class="icon-box">
                   <i class="bi bi-clipboard-pulse"></i>
-                  <h3>Rerum aperiam</h3>
-                  <p>Autem saepe animi et aut aspernatur culpa facere. Rerum saepe rerum voluptates quia</p>
+                  <h3>InLaw News</h3>
+                  <p>What do YOU think? <br> Stay Informed, Share Your Thoughts: Your Source for Legal News and Insights with User Comments.</p>
                 </div>
               </div> <!-- End Icon Box -->
 
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
                 <div class="icon-box">
                   <i class="bi bi-command"></i>
-                  <h3>Veniam omnis</h3>
-                  <p>Omnis perferendis molestias culpa sed. Recusandae quas possimus. Quod consequatur corrupti</p>
+                  <h3>InLaw Doc Automation</h3>
+                  <p>Why bother spending time drafting those same Notices, Affidavits or Fee Notes over and over again?</p>
                 </div>
               </div> <!-- End Icon Box -->
 
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
                 <div class="icon-box">
                   <i class="bi bi-graph-up-arrow"></i>
-                  <h3>Delares sapiente</h3>
-                  <p>Sint et dolor voluptas minus possimus nostrum. Reiciendis commodi eligendi omnis quideme lorenda</p>
+                  <h3>InLaw Analysis</h3>
+                  <p>Analytic tools to keep track of those Fee Notes and overdue payments. </p>
                 </div>
               </div> <!-- End Icon Box -->
 
@@ -114,84 +119,84 @@
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
             <div class="features-item">
               <i class="bi bi-eye" style="color: #ffbb2c;"></i>
-              <h3><a href="" class="stretched-link">Lorem Ipsum</a></h3>
+              <h3><a href="" class="stretched-link">Client Portal</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
             <div class="features-item">
               <i class="bi bi-infinity" style="color: #5578ff;"></i>
-              <h3><a href="" class="stretched-link">Dolor Sitema</a></h3>
+              <h3><a href="" class="stretched-link">Document Automation</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="300">
             <div class="features-item">
               <i class="bi bi-mortarboard" style="color: #e80368;"></i>
-              <h3><a href="" class="stretched-link">Sed perspiciatis</a></h3>
+              <h3><a href="" class="stretched-link">Client-Advocate Communication</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="400">
             <div class="features-item">
               <i class="bi bi-nut" style="color: #e361ff;"></i>
-              <h3><a href="" class="stretched-link">Magni Dolores</a></h3>
+              <h3><a href="" class="stretched-link">User Management</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="500">
             <div class="features-item">
               <i class="bi bi-shuffle" style="color: #47aeff;"></i>
-              <h3><a href="" class="stretched-link">Nemo Enim</a></h3>
+              <h3><a href="" class="stretched-link">Task Mangement</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="600">
             <div class="features-item">
               <i class="bi bi-star" style="color: #ffa76e;"></i>
-              <h3><a href="" class="stretched-link">Eiusmod Tempor</a></h3>
+              <h3><a href="" class="stretched-link">Status Reports</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="700">
             <div class="features-item">
               <i class="bi bi-x-diamond" style="color: #11dbcf;"></i>
-              <h3><a href="" class="stretched-link">Midela Teren</a></h3>
+              <h3><a href="" class="stretched-link">Calendaring</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="800">
             <div class="features-item">
               <i class="bi bi-camera-video" style="color: #4233ff;"></i>
-              <h3><a href="" class="stretched-link">Pira Neve</a></h3>
+              <h3><a href="" class="stretched-link">Document Management</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="900">
             <div class="features-item">
               <i class="bi bi-command" style="color: #b2904f;"></i>
-              <h3><a href="" class="stretched-link">Dirada Pack</a></h3>
+              <h3><a href="" class="stretched-link">Accounting</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1000">
             <div class="features-item">
               <i class="bi bi-dribbble" style="color: #b20969;"></i>
-              <h3><a href="" class="stretched-link">Moton Ideal</a></h3>
+              <h3><a href="" class="stretched-link">Reminders</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1100">
             <div class="features-item">
               <i class="bi bi-activity" style="color: #ff5828;"></i>
-              <h3><a href="" class="stretched-link">Verdo Park</a></h3>
+              <h3><a href="" class="stretched-link">Case Management</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1200">
             <div class="features-item">
               <i class="bi bi-brightness-high" style="color: #29cc61;"></i>
-              <h3><a href="" class="stretched-link">Flavor Nivelanda</a></h3>
+              <h3><a href="" class="stretched-link">Case Updates</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
@@ -245,6 +250,10 @@
       </div>
 
     </section><!-- /Stats Section -->
+    <script>
+        // Hide the section by setting display to none
+        document.getElementById('stats').style.display = 'none'; 
+      </script>
 
     <!-- Details Section -->
     <section id="details" class="details section">
@@ -329,6 +338,10 @@
       </div>
 
     </section><!-- /Details Section -->
+    <script>
+        // Hide the section by setting display to none
+        document.getElementById('details').style.display = 'none'; 
+      </script>
 
     <!-- Gallery Section -->
     <section id="gallery" class="gallery section">
@@ -412,6 +425,10 @@
       </div>
 
     </section><!-- /Gallery Section -->
+    <script>
+        // Hide the section by setting display to none
+        document.getElementById('gallery').style.display = 'none'; 
+      </script>
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section dark-background">
@@ -441,14 +458,14 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
+                <h3>Ashley Makena</h3>
+                <h4>Advocate</h4>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                  <span>Partnering with InLaw Legal completely change our firm's operations for the better.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -457,14 +474,14 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
+                <h3>Robert Oduor</h3>
+                <h4>Advocate, Managing Partner</h4>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                  <span>If it is time, work load and money you want to save up on; then i highly recomend InLaw Legal.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -473,46 +490,14 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
+                <h3>Kigen Chebet</h3>
+                <h4>Firm Partner</h4>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+                  <span> A one stop shop indeed for all your Legal practis needs.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -525,6 +510,7 @@
       </div>
 
     </section><!-- /Testimonials Section -->
+    
 
     <!-- Team Section -->
     <section id="team" class="team section">
@@ -543,7 +529,7 @@
             <div class="member">
               <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Walter White</h4>
+                <h4>Chad Diro</h4>
                 <span>Chief Executive Officer</span>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -559,7 +545,7 @@
             <div class="member">
               <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Sarah Jhonson</h4>
+                <h4>Sammi Oyabi</h4>
                 <span>Product Manager</span>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -575,7 +561,7 @@
             <div class="member">
               <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>William Anderson</h4>
+                <h4>Mark Talamson</h4>
                 <span>CTO</span>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -601,6 +587,7 @@
         <h2>Pricing</h2>
         <div><span>Check Our</span> <span class="description-title">Pricing</span></div>
       </div><!-- End Section Title -->
+      
 
       <div class="container">
 
@@ -608,58 +595,75 @@
 
           <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="pricing-item">
-              <h3>Free Plan</h3>
-              <p class="description">Ullam mollitia quasi nobis soluta in voluptatum et sint palora dex strater</p>
-              <h4><sup>$</sup>0<span> / month</span></h4>
-              <a href="#" class="cta-btn">Start a free trial</a>
-              <p class="text-center small">No credit card required</p>
+              <h3>Basic Plan</h3>
+              <p class="description">Suitable for your briefcase practice</p>
+              <h4><sup>$</sup>50<span> / month</span></h4>
+              <h4><sup>$</sup>550<span> / year <br> save 50$</span></h4>
+              <a href="#" class="cta-btn">Start today</a>
               <ul>
-                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Voluptate id voluptas qui sed aperiam rerum</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Iure nihil dolores recusandae odit voluptatibus</span></li>
+                <li><i class="bi bi-check"></i> <span>Case Management</span></li>
+                <li><i class="bi bi-check"></i> <span>Documnt Management</span></li>
+                <li><i class="bi bi-check"></i> <span>Calendaring and Reminders</span></li>
+                <li><i class="bi bi-check"></i> <span>Document Automation</li>
+                <li><i class="bi bi-check"></i> <span>User Management (upto 5 users)</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Task Management</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Accounting</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Status Report</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Client Portal</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Client Communications</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Case Updates</span></li>
               </ul>
             </div>
           </div><!-- End Pricing Item -->
 
           <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="pricing-item featured">
-              <p class="popular">Popular</p>
-              <h3>Business Plan</h3>
-              <p class="description">Ullam mollitia quasi nobis soluta in voluptatum et sint palora dex strater</p>
-              <h4><sup>$</sup>29<span> / month</span></h4>
-              <a href="#" class="cta-btn">Start a free trial</a>
-              <p class="text-center small">No credit card required</p>
+              
+              <h3>Standard Plan</h3>
+              <p class="description">That's more like it! <br>Perfect for all your in house needs.</p>
+              <h4><sup>$</sup>75<span> / month</span></h4>
+              <h4><sup>$</sup>825<span> / year <br> save 75$</span></h4>
+              <a href="#" class="cta-btn">Start Today</a>
               <ul>
-                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-                <li><i class="bi bi-check"></i> <span>Voluptate id voluptas qui sed aperiam rerum</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Iure nihil dolores recusandae odit voluptatibus</span></li>
+                <li><i class="bi bi-check"></i> <span>Case Management</span></li>
+                <li><i class="bi bi-check"></i> <span>Documnt Management</span></li>
+                <li><i class="bi bi-check"></i> <span>Calendaring and Reminders</span></li>
+                <li><i class="bi bi-check"></i> <span>Document Automation></li>
+                <li><i class="bi bi-check"></i> <span>User Management</span></li>
+                <li><i class="bi bi-check"></i> <span>Task Management</span></li>
+                <li><i class="bi bi-check"></i> <span>Accounting</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Status Report</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Client Portal</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Client Communications</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Case Updates</span></li>
               </ul>
             </div>
           </div><!-- End Pricing Item -->
 
           <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="pricing-item">
-              <h3>Developer Plan</h3>
-              <p class="description">Ullam mollitia quasi nobis soluta in voluptatum et sint palora dex strater</p>
-              <h4><sup>$</sup>49<span> / month</span></h4>
-              <a href="#" class="cta-btn">Start a free trial</a>
-              <p class="text-center small">No credit card required</p>
+            <div class="pricing-item featured">
+            <p class="popular">Popular</p>
+              <h3>Pro Plan</h3>
+              <p class="description">All in one! <br>
+              Keep those clients in the loop.<br> Get to fully experience what InLaw App is all about. </p>
+              <h4><sup>$</sup>100<span> / month</span></h4>
+              <h4><sup>$</sup>1000<span> / year <br> save 200$</span></h4>
+              <a href="#" class="cta-btn">Start Today</a>
               <ul>
-                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-                <li><i class="bi bi-check"></i> <span>Voluptate id voluptas qui sed aperiam rerum</span></li>
-                <li><i class="bi bi-check"></i> <span>Iure nihil dolores recusandae odit voluptatibus</span></li>
+                <li><i class="bi bi-check"></i> <span>Case Management</span></li>
+                <li><i class="bi bi-check"></i> <span>Documnt Management</span></li>
+                <li><i class="bi bi-check"></i> <span>Calendaring and Reminders</span></li>
+                <li><i class="bi bi-check"></i> <span>Document Automation></li>
+                <li><i class="bi bi-check"></i> <span>User Management</span></li>
+                <li><i class="bi bi-check"></i> <span>Task Management</span></li>
+                <li><i class="bi bi-check"></i> <span>Accounting</span></li>
+                <li><i class="bi bi-check"></i>
+                <span>Status Report</span></li>
+                <li><i class="bi bi-check"></i> <span>Client Portal</span></li>
+                <li><i class="bi bi-check"></i>
+                <span>Client Communications</span></li>
+                <li><i class="bi bi-check"></i>
+                <span>Case Updates</span></li>
               </ul>
             </div>
           </div><!-- End Pricing Item -->
@@ -682,7 +686,7 @@
             <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
               <h3><span>Frequently Asked </span><strong>Questions</strong></h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+              Go ahead and contact us for any inquiries.
               </p>
             </div>
 
@@ -690,27 +694,27 @@
 
               <div class="faq-item faq-active">
                 <i class="faq-icon bi bi-question-circle"></i>
-                <h3>Non consectetur a erat nam at lectus urna duis?</h3>
+                <h3>How do i start a subscription?</h3>
                 <div class="faq-content">
-                  <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                  <p>Register a new account to start or choose a subscription</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
                 <i class="faq-icon bi bi-question-circle"></i>
-                <h3>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h3>
+                <h3>Can i have my data entered for me?</h3>
                 <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                  <p>Yes you most definetly can. Have all your documents and cases inputted for you at a fee as low as Ksh.0.30 per page.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
                 <i class="faq-icon bi bi-question-circle"></i>
-                <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
+                <h3>Where do i get document automation templates?</h3>
                 <div class="faq-content">
-                  <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
+                  <p>Contact us to get you your custom templates perfect to your spcification.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
@@ -746,7 +750,7 @@
               <i class="bi bi-geo-alt flex-shrink-0"></i>
               <div>
                 <h3>Address</h3>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p></p>
               </div>
             </div><!-- End Info Item -->
 
@@ -754,7 +758,7 @@
               <i class="bi bi-telephone flex-shrink-0"></i>
               <div>
                 <h3>Call Us</h3>
-                <p>+1 5589 55488 55</p>
+                <p>+254 718654571</p>
               </div>
             </div><!-- End Info Item -->
 
@@ -762,7 +766,7 @@
               <i class="bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h3>Email Us</h3>
-                <p>info@example.com</p>
+                <p>info@inlaw-legal.tech</p>
               </div>
             </div><!-- End Info Item -->
 
