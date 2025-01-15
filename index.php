@@ -1,5 +1,6 @@
 <?php
-$pageTitle = "Inlaw | Home";
+session_start();
+$pageTitle = "Inlaw | Landing Page";
 
 ?>
 <!DOCTYPE html>
@@ -72,7 +73,7 @@ $pageTitle = "Inlaw | Home";
 
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
                 <div class="icon-box">
-                  <i class="bi bi-buildings"></i>
+                  <i class="bi bi-pc-display"></i>
                   <h3>InLaw-Legal App</h3>
                   <p>With an all-in-one stop of features, InLaw empowers firms to manage cases, clients, courts, and documents with unmatched efficiency.</p>
                 </div>
@@ -80,7 +81,7 @@ $pageTitle = "Inlaw | Home";
 
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
                 <div class="icon-box">
-                  <i class="bi bi-clipboard-pulse"></i>
+                  <i class="bi bi-newspaper"></i>
                   <h3>InLaw News</h3>
                   <p>What do YOU think? <br> Stay Informed, Share Your Thoughts: Your Source for Legal News and Insights with User Comments.</p>
                 </div>
@@ -88,7 +89,7 @@ $pageTitle = "Inlaw | Home";
 
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
                 <div class="icon-box">
-                  <i class="bi bi-command"></i>
+                  <i class="bi bi-file-earmark-break"></i>
                   <h3>InLaw Doc Automation</h3>
                   <p>Why bother spending time drafting those same Notices, Affidavits or Fee Notes over and over again?</p>
                 </div>
@@ -97,7 +98,7 @@ $pageTitle = "Inlaw | Home";
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
                 <div class="icon-box">
                   <i class="bi bi-graph-up-arrow"></i>
-                  <h3>InLaw Analysis</h3>
+                  <h3>InLaw Analytics</h3>
                   <p>Analytic tools to keep track of those Fee Notes and overdue payments. </p>
                 </div>
               </div> <!-- End Icon Box -->
@@ -119,89 +120,90 @@ $pageTitle = "Inlaw | Home";
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
             <div class="features-item">
-              <i class="bi bi-eye" style="color: #ffbb2c;"></i>
+              <i class="bi bi-person-lines-fill" style="color: #ffbb2c;"></i>
               <h3><a href="" class="stretched-link">Client Portal</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
             <div class="features-item">
-              <i class="bi bi-infinity" style="color: #5578ff;"></i>
+              <i class="bi bi-file-earmark-code" style="color: #5578ff;"></i>
               <h3><a href="" class="stretched-link">Document Automation</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="300">
             <div class="features-item">
-              <i class="bi bi-mortarboard" style="color: #e80368;"></i>
+              <i class="bi bi-chat-dots" style="color: #e80368;"></i>
               <h3><a href="" class="stretched-link">Client-Advocate Communication</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="400">
             <div class="features-item">
-              <i class="bi bi-nut" style="color: #e361ff;"></i>
+              <i class="bi bi-people" style="color: #e361ff;"></i>
               <h3><a href="" class="stretched-link">User Management</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="500">
             <div class="features-item">
-              <i class="bi bi-shuffle" style="color: #47aeff;"></i>
-              <h3><a href="" class="stretched-link">Task Mangement</a></h3>
+              <i class="bi bi-list-task" style="color: #47aeff;"></i>
+              <h3><a href="" class="stretched-link">Task Management</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="600">
             <div class="features-item">
-              <i class="bi bi-star" style="color: #ffa76e;"></i>
+              <i class="bi bi-bar-chart" style="color: #ffa76e;"></i>
               <h3><a href="" class="stretched-link">Status Reports</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="700">
             <div class="features-item">
-              <i class="bi bi-x-diamond" style="color: #11dbcf;"></i>
+              <i class="bi bi-calendar-check" style="color: #11dbcf;"></i>
               <h3><a href="" class="stretched-link">Calendaring</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="800">
             <div class="features-item">
-              <i class="bi bi-camera-video" style="color: #4233ff;"></i>
+              <i class="bi bi-folder-symlink" style="color: #4233ff;"></i>
               <h3><a href="" class="stretched-link">Document Management</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="900">
             <div class="features-item">
-              <i class="bi bi-command" style="color: #b2904f;"></i>
+              <i class="bi bi-currency-dollar" style="color: #b2904f;"></i>
               <h3><a href="" class="stretched-link">Accounting</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1000">
             <div class="features-item">
-              <i class="bi bi-dribbble" style="color: #b20969;"></i>
+              <i class="bi bi-alarm" style="color: #b20969;"></i>
               <h3><a href="" class="stretched-link">Reminders</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1100">
             <div class="features-item">
-              <i class="bi bi-activity" style="color: #ff5828;"></i>
+              <i class="bi bi-briefcase" style="color: #ff5828;"></i>
               <h3><a href="" class="stretched-link">Case Management</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1200">
             <div class="features-item">
-              <i class="bi bi-brightness-high" style="color: #29cc61;"></i>
+              <i class="bi bi-lightbulb" style="color: #29cc61;"></i>
               <h3><a href="" class="stretched-link">Case Updates</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
         </div>
+
 
       </div>
 
@@ -245,11 +247,8 @@ $pageTitle = "Inlaw | Home";
               <p>Hard Workers</p>
             </div>
           </div><!-- End Stats Item -->
-
         </div>
-
       </div>
-
     </section><!-- /Stats Section -->
     <script>
       // Hide the section by setting display to none
@@ -433,8 +432,13 @@ $pageTitle = "Inlaw | Home";
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section dark-background">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <div><span></span> <span class="description-title">What some of our users have to say</span></div>
+      </div><!-- End Section Title -->
 
-      <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
+      <img src="#" class="testimonials-bg" alt="">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -458,7 +462,7 @@ $pageTitle = "Inlaw | Home";
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/defaultpfp.png" class="testimonial-img" alt="">
                 <h3>Ashley Makena</h3>
                 <h4>Advocate</h4>
                 <div class="stars">
@@ -466,7 +470,7 @@ $pageTitle = "Inlaw | Home";
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Partnering with InLaw Legal completely change our firm's operations for the better.</span>
+                  <span>Partnering with InLaw Legal completely changed our firm's operations for the better.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -474,7 +478,7 @@ $pageTitle = "Inlaw | Home";
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/defaultpfp.png" class="testimonial-img" alt="">
                 <h3>Robert Oduor</h3>
                 <h4>Advocate, Managing Partner</h4>
                 <div class="stars">
@@ -490,7 +494,7 @@ $pageTitle = "Inlaw | Home";
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/defaultpfp.png" class="testimonial-img" alt="">
                 <h3>Kigen Chebet</h3>
                 <h4>Firm Partner</h4>
                 <div class="stars">
@@ -498,7 +502,7 @@ $pageTitle = "Inlaw | Home";
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span> A one stop shop indeed for all your Legal practis needs.</span>
+                  <span> A one stop shop indeed for all your Legal practice needs.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -518,8 +522,8 @@ $pageTitle = "Inlaw | Home";
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Team</h2>
-        <div><span>Check Our</span> <span class="description-title">Team</span></div>
+        <h2>Our Team</h2>
+        <div><span>The brains behind the magic</span> <span class="description-title"></span></div>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -528,15 +532,12 @@ $pageTitle = "Inlaw | Home";
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
-              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="#" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Chad Diro</h4>
                 <span>Chief Executive Officer</span>
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="mailto:chad.diro@inlaw-legal.tech"><i class="bi bi-envelope"></i></a>
                 </div>
               </div>
             </div>
@@ -544,15 +545,12 @@ $pageTitle = "Inlaw | Home";
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="member">
-              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="#" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Sammi Oyabi</h4>
                 <span>Product Manager</span>
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="mailto:info@inlaw-legal.tech"><i class="bi bi-envelope"></i></a>
                 </div>
               </div>
             </div>
@@ -560,15 +558,12 @@ $pageTitle = "Inlaw | Home";
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="member">
-              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="#" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Mark Talamson</h4>
                 <span>Chief Technical Officer</span>
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="mailto:mark.talamson@inlaw-legal.tech"><i class="bi bi-envelope"></i></a>
                 </div>
               </div>
             </div>
@@ -586,97 +581,29 @@ $pageTitle = "Inlaw | Home";
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Pricing</h2>
-        <div><span>Check Our</span> <span class="description-title">Pricing</span></div>
+        <div><span>Check out our</span> <span class="description-title">different pricing options</span></div>
       </div><!-- End Section Title -->
 
+      <!-- Slider Toggle for Monthly/Yearly -->
+      <div class="container text-center">
+        <label class="pricing-toggle-label">
+          <span class="toggle-text monthly">Monthly</span>
+          <input type="checkbox" id="pricing-toggle">
+          <span class="toggle-text yearly">Yearly</span>
+          <div class="slider"></div>
+        </label>
+      </div>
 
       <div class="container">
 
-        <div class="row gy-4">
-
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="pricing-item">
-              <h3>Basic Plan</h3>
-              <p class="description">Suitable for your briefcase practice</p>
-              <h4><sup>$</sup>50<span> / month</span></h4>
-              <h4><sup>$</sup>550<span> / year <br> save 50$</span></h4>
-              <a href="#" class="cta-btn">Start today</a>
-              <ul>
-                <li><i class="bi bi-check"></i> <span>Case Management</span></li>
-                <li><i class="bi bi-check"></i> <span>Documnt Management</span></li>
-                <li><i class="bi bi-check"></i> <span>Calendaring and Reminders</span></li>
-                <li><i class="bi bi-check"></i> <span>Document Automation</li>
-                <li><i class="bi bi-check"></i> <span>User Management (upto 5 users)</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Task Management</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Accounting</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Status Report</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Client Portal</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Client Communications</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Case Updates</span></li>
-              </ul>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="pricing-item featured">
-
-              <h3>Standard Plan</h3>
-              <p class="description">That's more like it! <br>Perfect for all your in house needs.</p>
-              <h4><sup>$</sup>75<span> / month</span></h4>
-              <h4><sup>$</sup>825<span> / year <br> save 75$</span></h4>
-              <a href="#" class="cta-btn">Start Today</a>
-              <ul>
-                <li><i class="bi bi-check"></i> <span>Case Management</span></li>
-                <li><i class="bi bi-check"></i> <span>Documnt Management</span></li>
-                <li><i class="bi bi-check"></i> <span>Calendaring and Reminders</span></li>
-                <li><i class="bi bi-check"></i> <span>Document Automation></li>
-                <li><i class="bi bi-check"></i> <span>User Management</span></li>
-                <li><i class="bi bi-check"></i> <span>Task Management</span></li>
-                <li><i class="bi bi-check"></i> <span>Accounting</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Status Report</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Client Portal</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Client Communications</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Case Updates</span></li>
-              </ul>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="pricing-item featured">
-              <p class="popular">Popular</p>
-              <h3>Pro Plan</h3>
-              <p class="description">All in one! <br>
-                Keep those clients in the loop.<br> Get to fully experience what InLaw App is all about. </p>
-              <h4><sup>$</sup>100<span> / month</span></h4>
-              <h4><sup>$</sup>1000<span> / year <br> save 200$</span></h4>
-              <a href="#" class="cta-btn">Start Today</a>
-              <ul>
-                <li><i class="bi bi-check"></i> <span>Case Management</span></li>
-                <li><i class="bi bi-check"></i> <span>Documnt Management</span></li>
-                <li><i class="bi bi-check"></i> <span>Calendaring and Reminders</span></li>
-                <li><i class="bi bi-check"></i> <span>Document Automation></li>
-                <li><i class="bi bi-check"></i> <span>User Management</span></li>
-                <li><i class="bi bi-check"></i> <span>Task Management</span></li>
-                <li><i class="bi bi-check"></i> <span>Accounting</span></li>
-                <li><i class="bi bi-check"></i>
-                  <span>Status Report</span>
-                </li>
-                <li><i class="bi bi-check"></i> <span>Client Portal</span></li>
-                <li><i class="bi bi-check"></i>
-                  <span>Client Communications</span>
-                </li>
-                <li><i class="bi bi-check"></i>
-                  <span>Case Updates</span>
-                </li>
-              </ul>
-            </div>
-          </div><!-- End Pricing Item -->
-
+        <div class="row gy-4" id="pricing-plans">
+          <!-- Pricing items will be inserted here by JS -->
         </div>
 
       </div>
 
-    </section><!-- /Pricing Section -->
+    </section>
+    <!-- /Pricing Section -->
 
     <!-- Faq Section -->
     <section id="faq" class="faq section light-background">
@@ -741,8 +668,8 @@ $pageTitle = "Inlaw | Home";
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <div><span>Check Our</span> <span class="description-title">Contact</span></div>
+        <h2>Contact Us</h2>
+        <div><span>Let us get back to you</span> <span class="description-title"></span></div>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade" data-aos-delay="100">
@@ -753,8 +680,8 @@ $pageTitle = "Inlaw | Home";
             <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
               <i class="bi bi-geo-alt flex-shrink-0"></i>
               <div>
-                <h3>Address</h3>
-                <p></p>
+                <h3>Location</h3>
+                <p>Nairobi, Kenya</p>
               </div>
             </div><!-- End Info Item -->
 
@@ -762,7 +689,15 @@ $pageTitle = "Inlaw | Home";
               <i class="bi bi-telephone flex-shrink-0"></i>
               <div>
                 <h3>Call Us</h3>
-                <p>+254 718654571</p>
+                <a href="tel:+254718654571">+254 718 654 571</a>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-whatsapp flex-shrink-0"></i>
+              <div>
+                <h3>WhatsApp Us</h3>
+                <a href="https://wa.me/254718654571?text=Hello%2C%20I%20have%20an%20inquiry%20for%20InLaw%20Legal" target="_blank">+254 718654571</a>
               </div>
             </div><!-- End Info Item -->
 
@@ -770,38 +705,49 @@ $pageTitle = "Inlaw | Home";
               <i class="bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h3>Email Us</h3>
-                <p>info@inlaw-legal.tech</p>
+                <p><a href="mailto:info@inlaw-legal.tech">info@inlaw-legal.tech</a></p>
               </div>
             </div><!-- End Info Item -->
 
           </div>
 
           <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+            <form action="processes.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
               <div class="row gy-4">
 
                 <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
                 </div>
 
                 <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
                 </div>
 
                 <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                  <input type="tel" class="form-control" name="phone" placeholder="Your Phone Number">
                 </div>
 
                 <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
                 </div>
 
                 <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                  <!-- <div class="loading">Loading</div> -->
+                  <?php
+                  if (isset($_SESSION['contact-error'])): ?>
+                    <div class="error-message"><?php echo $_SESSION['contact-error']; ?></div>
+                    <?php unset($_SESSION['contact-error']); ?>
+                  <?php
+                  elseif (isset($_SESSION['contact-success'])): ?>
+                    <div class="sent-message"><?php echo $_SESSION['contact-success']; ?></div>
+                    <?php unset($_SESSION['contact-success']); ?>
+                  <?php endif; ?>
 
-                  <button type="submit">Send Message</button>
+                  <button type="submit" name="submit-contact-form">Send Message</button>
                 </div>
 
               </div>
