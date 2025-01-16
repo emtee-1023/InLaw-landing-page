@@ -554,7 +554,7 @@ $pageTitle = "Inlaw | Landing Page";
               <div class="pic"><img src="#" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Sammi Oyabi</h4>
-                <span>Product Manager</span>
+                <span>Head of RND</span>
                 <div class="social">
                   <a href="mailto:info@inlaw-legal.tech"><i class="bi bi-envelope"></i></a>
                 </div>
