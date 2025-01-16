@@ -31,7 +31,7 @@ $pageTitle = "Inlaw | Landing Page";
             <p> Your Trusted Partner in Legal Success</p>
             <div class="d-flex">
               <a href="https://app.inlaw-legal.tech/firm-login" class="btn-get-started">Get Started</a>
-              <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+              <!-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
             </div>
           </div>
 
@@ -113,6 +113,12 @@ $pageTitle = "Inlaw | Landing Page";
 
     <!-- Features Section -->
     <section id="features" class="features section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>App Features</h2>
+        <div><span>What You Get</span> <span class="description-title"></span></div>
+      </div><!-- End Section Title -->
 
       <div class="container">
 

@@ -69,7 +69,7 @@ function contactFormMail($name, $email, $phone, $subject, $message)
                     <p style="margin-bottom: 15px;">
                         New Contact Form Submission
                     </p>
-                    <p> style="margin-bottom: 15px;">
+                    <p style="margin-bottom: 15px;">
                         <strong>Name:</strong> ' . $name . '
                     </p>
                     <p style="margin-bottom: 15px;">
