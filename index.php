@@ -583,32 +583,107 @@ $pageTitle = "Inlaw | Landing Page";
 
     <!-- Pricing Section -->
     <section id="pricing" class="pricing section">
-
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Pricing</h2>
         <div><span>Check out our</span> <span class="description-title">different pricing options</span></div>
-      </div><!-- End Section Title -->
+      </div>
 
       <!-- Slider Toggle for Monthly/Yearly -->
-      <div class="container text-center">
-        <label class="pricing-toggle-label">
-          <span class="toggle-text monthly">Monthly</span>
+      <div class="container text-center mb-4">
+        <label class="pricing-toggle-label" for="pricing-toggle">
           <input type="checkbox" id="pricing-toggle">
+          <span class="slider"></span>
+          <span class="toggle-text monthly">Monthly</span>
           <span class="toggle-text yearly">Yearly</span>
-          <div class="slider"></div>
         </label>
       </div>
 
       <div class="container">
+        <div class="row gy-4">
 
-        <div class="row gy-4" id="pricing-plans">
-          <!-- Pricing items will be inserted here by JS -->
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="pricing-item">
+              <h3>Basic Plan</h3>
+              <p class="description">Suitable for your briefcase practice</p>
+              <h4 class="price monthly"><sup>$</sup>50<span> / month</span></h4>
+              <h4 class="savings yearly"><sup>$</sup>500<span> / year <br> save $50</span></h4>
+              <a href="#" class="cta-btn">Start today</a>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Case Management</span></li>
+                <li><i class="bi bi-check"></i> <span>Documnt Management</span></li>
+                <li><i class="bi bi-check"></i> <span>Calendaring and Reminders</span></li>
+                <li><i class="bi bi-check"></i> <span>Document Automation</li>
+                <li><i class="bi bi-check"></i> <span>User Management (upto 5 users)</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Task Management</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Accounting</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Status Report</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Client Portal</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Client Communications</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Case Updates</span></li>
+              </ul>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="pricing-item featured">
+
+              <h3>Standard Plan</h3>
+              <p class="description">That's more like it! <br>Perfect for all your in house needs.</p>
+              <h4 class="price monthly"><sup>$</sup>75<span> / month</span></h4>
+              <h4 class="savings yearly"><sup>$</sup>825<span> / year <br> save $75</span></h4>
+              <a href="#" class="cta-btn">Start Today</a>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Case Management</span></li>
+                <li><i class="bi bi-check"></i> <span>Documnt Management</span></li>
+                <li><i class="bi bi-check"></i> <span>Calendaring and Reminders</span></li>
+                <li><i class="bi bi-check"></i> <span>Document Automation></li>
+                <li><i class="bi bi-check"></i> <span>User Management</span></li>
+                <li><i class="bi bi-check"></i> <span>Task Management</span></li>
+                <li><i class="bi bi-check"></i> <span>Accounting</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Status Report</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Client Portal</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Client Communications</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Case Updates</span></li>
+              </ul>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="pricing-item featured">
+              <p class="popular">Popular</p>
+              <h3>Pro Plan</h3>
+              <p class="description">All in one! <br>
+                Keep those clients in the loop.<br> Get to fully experience what InLaw App is all about. </p>
+              <h4 class="price monthly"><sup>$</sup>100<span> / month</span></h4>
+              <h4 class="savings yearly"><sup>$</sup>1000<span> / year <br> save $200</span></h4>
+              <a href="#" class="cta-btn">Start Today</a>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Case Management</span></li>
+                <li><i class="bi bi-check"></i> <span>Documnt Management</span></li>
+                <li><i class="bi bi-check"></i> <span>Calendaring and Reminders</span></li>
+                <li><i class="bi bi-check"></i> <span>Document Automation></li>
+                <li><i class="bi bi-check"></i> <span>User Management</span></li>
+                <li><i class="bi bi-check"></i> <span>Task Management</span></li>
+                <li><i class="bi bi-check"></i> <span>Accounting</span></li>
+                <li><i class="bi bi-check"></i>
+                  <span>Status Report</span>
+                </li>
+                <li><i class="bi bi-check"></i> <span>Client Portal</span></li>
+                <li><i class="bi bi-check"></i>
+                  <span>Client Communications</span>
+                </li>
+                <li><i class="bi bi-check"></i>
+                  <span>Case Updates</span>
+                </li>
+              </ul>
+            </div>
+          </div><!-- End Pricing Item -->
         </div>
-
       </div>
-
     </section>
+
+
     <!-- /Pricing Section -->
 
     <!-- Faq Section -->
