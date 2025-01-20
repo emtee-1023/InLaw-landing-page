@@ -589,15 +589,24 @@ $pageTitle = "Inlaw | Landing Page";
         <div><span>Check out our</span> <span class="description-title">different pricing options</span></div>
       </div>
 
+      <!-- New slider -->
+      <div class="container text-center mb-4 d-flex flex-row justify-content-center gap-4">
+        <p class="toggle-text monthly">Pay Monthly</p>
+        <label for="pricing-toggle">
+          <input type="checkbox" class="toggle-checkbox" id="pricing-toggle">
+          <div class="toggle-switch"></div>
+        </label>
+        <p class="toggle-text yearly">Pay Annualy</p>
+      </div>
       <!-- Slider Toggle for Monthly/Yearly -->
-      <div class="container text-center mb-4">
+      <!-- <div class="container text-center mb-4">
         <label class="pricing-toggle-label" for="pricing-toggle">
           <input type="checkbox" id="pricing-toggle">
           <span class="slider"></span>
           <span class="toggle-text monthly">Monthly</span>
           <span class="toggle-text yearly">Yearly</span>
         </label>
-      </div>
+      </div> -->
 
       <div class="container">
         <div class="row gy-4">
@@ -708,7 +717,8 @@ $pageTitle = "Inlaw | Landing Page";
                 <i class="faq-icon bi bi-question-circle"></i>
                 <h3>How do i start a subscription?</h3>
                 <div class="faq-content">
-                  <p>Register a new account to start or choose a subscription</p>
+                  <p>We are currently handling the onboarding of new clients via direct contact with our Management Team. Feel free to either <a href="tel:+254718654571">Call</a>, <a href="mailto:info@inlaw-legal.tech">email</a> or <a href="https://wa.me/254718654571?text=Hello%2C%20I%20would%20like%20to%20set%20up%20an%20account%20for%20my%20firm%20with%20InLaw" target="_blank">Whatsapp us</a> and we will swiftly help set up your account.
+                  </p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
@@ -717,7 +727,7 @@ $pageTitle = "Inlaw | Landing Page";
                 <i class="faq-icon bi bi-question-circle"></i>
                 <h3>Can i have my data entered for me?</h3>
                 <div class="faq-content">
-                  <p>Yes you most definetly can. Have all your documents and cases inputted for you at a fee as low as Ksh.0.30 per page.</p>
+                  <p>Yes, you most definetly can have all your physical doucuments digitized at a cost of Ksh.0.30 per page, as well as data for your cases and clients onboarded. <a href="#contact">Contact Us</a></p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
@@ -726,7 +736,7 @@ $pageTitle = "Inlaw | Landing Page";
                 <i class="faq-icon bi bi-question-circle"></i>
                 <h3>Where do i get document automation templates?</h3>
                 <div class="faq-content">
-                  <p>Contact us to get you your custom templates perfect to your spcification.</p>
+                  <p><a href="#contact">Contact Us</a> to get document automation templates generated for you and added to your account and get to free up time from those repetitive tasks.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->

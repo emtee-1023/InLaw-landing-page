@@ -19,16 +19,16 @@
         pricingToggle.addEventListener('change', function() {
             if (this.checked) {
                 pricingSection.classList.add('yearly-active');
-                monthlyText.classList.remove('active');
-                yearlyText.classList.add('active');
+                //monthlyText.classList.remove('active');
+                //yearlyText.classList.add('active');
             } else {
                 pricingSection.classList.remove('yearly-active');
-                monthlyText.classList.add('active');
-                yearlyText.classList.remove('active');
+                //monthlyText.classList.add('active');
+                //yearlyText.classList.remove('active');
             }
         });
 
         // Set initial state
-        monthlyText.classList.add('active');
+        //monthlyText.classList.add('active');
     });
 </script>
