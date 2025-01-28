@@ -690,10 +690,7 @@ $pageTitle = "Inlaw | Landing Page";
           </div><!-- End Pricing Item -->
         </div>
       </div>
-    </section>
-
-
-    <!-- /Pricing Section -->
+    </section><!-- /Pricing Section -->
 
     <!-- Faq Section -->
     <section id="faq" class="faq section light-background">
