@@ -549,19 +549,6 @@ $pageTitle = "Inlaw | Landing Page";
             </div>
           </div><!-- End Team Member -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-              <div class="pic"><img src="#" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Sammi Oyabi</h4>
-                <span>Head of RND</span>
-                <div class="social">
-                  <a href="mailto:info@inlaw-legal.tech"><i class="bi bi-envelope"></i></a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="member">
               <div class="pic"><img src="#" class="img-fluid" alt=""></div>
@@ -570,6 +557,19 @@ $pageTitle = "Inlaw | Landing Page";
                 <span>Chief Technical Officer</span>
                 <div class="social">
                   <a href="mailto:mark.talamson@inlaw-legal.tech"><i class="bi bi-envelope"></i></a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="pic"><img src="#" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Sammi Oyabi</h4>
+                <span>Head of RND</span>
+                <div class="social">
+                  <a href="mailto:info@inlaw-legal.tech"><i class="bi bi-envelope"></i></a>
                 </div>
               </div>
             </div>
