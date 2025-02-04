@@ -800,7 +800,7 @@ $pageTitle = "Inlaw | Landing Page";
           </div>
 
           <div class="col-lg-8">
-            <form action="processes.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+            <form action="processes.php" id="contactForm" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
               <div class="row gy-4">
 
                 <div class="col-md-6">
@@ -840,6 +840,12 @@ $pageTitle = "Inlaw | Landing Page";
 
               </div>
             </form>
+
+            <script>
+              // Hide the section by setting display to none
+              document.getElementById('contactForm').style.display = 'none';
+            </script>
+
           </div><!-- End Contact Form -->
 
         </div>
