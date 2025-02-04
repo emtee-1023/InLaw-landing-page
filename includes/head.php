@@ -4,6 +4,7 @@
     <title><?= $pageTitle ?></title>
     <meta name="description" content="">
     <meta name="keywords" content="">
+    <meta name="google-site-verification" content="74O9WLvknyzX_To0DJYuvgfPFcXPP43xR_MTHBFXMUk" />
 
     <!-- Favicons -->
     <link href="assets/img/icon.png" rel="icon">
