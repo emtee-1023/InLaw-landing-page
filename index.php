@@ -63,8 +63,8 @@ $pageTitle = "Inlaw | Landing Page";
 
           <div class="col-xl-5 content">
             <h3>About Us</h3>
-            <h2>At InLaw, we are redefining the way legal professionals manage their practices. </h2>
-            <p>Our platform is designed to simplify and streamline legal workflows, allowing law firms and legal practitioners to focus on what they do best—delivering exceptional service to their clients.</p>
+            <h2>InLaw Legal is an All-In-One Legal Management Software. </h2>
+            <p>All the features you'll need from calendaring, invoice tracking, client communication, expenses tracking, document management, reminders, case updates, status reports automation, document automation, user management and case management. We even offer document digitization and data entry to have you using the system smoothly. Manage your practice at ease</p>
             <a href="assets/docs/about-us.pdf" target="_blank " class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
           </div>
 
