@@ -31,7 +31,10 @@ $pageTitle = "Inlaw | Landing Page";
             <p> Your Trusted Partner in Legal Success</p>
             <div class="d-flex">
               <a href="https://app.inlaw-legal.tech/firm-login" class="btn-get-started">Get Started</a>
-              <!-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
+              <a href="assets/img/introductory video.mp4" class="glightbox btn-watch-video d-flex align-items-center">
+                <i class="bi bi-play-circle"></i><span>Watch Video</span>
+              </a>
+
             </div>
           </div>
 
