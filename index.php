@@ -30,7 +30,7 @@ $pageTitle = "Inlaw | Landing Page";
             </h1>
             <p> Your Trusted Partner in Legal Success</p>
             <div class="d-flex">
-              <a href="https://app.inlaw-legal.tech/firm-login" class="btn-get-started">Get Started</a>
+              <a href="https://app.inlaw-legal.tech/firm-login" class="btn-get-started" target="_blank">Get Started</a>
               <a href="assets/img/introductory video.mp4" class="glightbox btn-watch-video d-flex align-items-center">
                 <i class="bi bi-play-circle"></i><span>Watch Video</span>
               </a>
@@ -82,8 +82,18 @@ $pageTitle = "Inlaw | Landing Page";
                 </div>
               </div> <!-- End Icon Box -->
 
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="bi bi-file-earmark-code"></i>
+                  <h3>Hard to Soft Copy</h3>
+                  <p>Get your physical documents digitized to soft copy PDFs for easier storage and management.</p>
+                </div>
+              </div> <!-- End Icon Box -->
+
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
                 <div class="icon-box">
+                  <p class="coming-soon">Coming Soon</p>
                   <i class="bi bi-newspaper"></i>
                   <h3>InLaw News</h3>
                   <p>What do YOU think? <br> Stay Informed, Share Your Thoughts: Your Source for Legal News and Insights with User Comments.</p>
@@ -92,17 +102,10 @@ $pageTitle = "Inlaw | Landing Page";
 
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
                 <div class="icon-box">
+                  <p class="coming-soon">On Request</p>
                   <i class="bi bi-file-earmark-break"></i>
                   <h3>InLaw Doc Automation</h3>
                   <p>Why bother spending time drafting those same Notices, Affidavits or Fee Notes over and over again?</p>
-                </div>
-              </div> <!-- End Icon Box -->
-
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
-                <div class="icon-box">
-                  <i class="bi bi-graph-up-arrow"></i>
-                  <h3>InLaw Analytics</h3>
-                  <p>Analytic tools to keep track of those Fee Notes and overdue payments. </p>
                 </div>
               </div> <!-- End Icon Box -->
 
@@ -601,15 +604,6 @@ $pageTitle = "Inlaw | Landing Page";
         </label>
         <p class="toggle-text yearly">Pay Annualy</p>
       </div>
-      <!-- Slider Toggle for Monthly/Yearly -->
-      <!-- <div class="container text-center mb-4">
-        <label class="pricing-toggle-label" for="pricing-toggle">
-          <input type="checkbox" id="pricing-toggle">
-          <span class="slider"></span>
-          <span class="toggle-text monthly">Monthly</span>
-          <span class="toggle-text yearly">Yearly</span>
-        </label>
-      </div> -->
 
       <div class="container">
         <div class="row gy-4">
@@ -707,7 +701,7 @@ $pageTitle = "Inlaw | Landing Page";
             <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
               <h3><span>Frequently Asked </span><strong>Questions</strong></h3>
               <p>
-                Go ahead and contact us for any inquiries.
+                Some of our most Common inquiries answered. If you have any other questions, feel free to <a href="#contact">Contact Us</a>
               </p>
             </div>
 
@@ -723,11 +717,20 @@ $pageTitle = "Inlaw | Landing Page";
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
+              <div class="faq-item faq-active">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>How Can You Convert Your Hard Copy Documents To Soft Copy?</h3>
+                <div class="faq-content">
+                  <p> We offer digitization services by converting your hardcopy documents to soft copy PDFs at affordable rates. <a href="#contact">Get in touch with us</a> to know how we can get it done for you today.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
               <div class="faq-item">
                 <i class="faq-icon bi bi-question-circle"></i>
                 <h3>Can i have my data entered for me?</h3>
                 <div class="faq-content">
-                  <p>Yes, you most definetly can have all your physical doucuments digitized at a cost of Ksh.0.30 per page, as well as data for your cases and clients onboarded. <a href="#contact">Contact Us</a></p>
+                  <p>Yes, We Do Offer Initial Setup Services to our clients. <a href="#contact">Contact Us</a> to get started</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
