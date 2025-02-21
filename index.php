@@ -586,6 +586,10 @@ $pageTitle = "Inlaw | Landing Page";
       </div>
 
     </section><!-- /Team Section -->
+    <script>
+      // Hide the section by setting display to none
+      document.getElementById('team').style.display = 'none';
+    </script>
 
     <!-- Pricing Section -->
     <section id="pricing" class="pricing section">
