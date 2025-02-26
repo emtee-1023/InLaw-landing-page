@@ -9,9 +9,17 @@
                 <div class="footer-contact pt-3">
                     <p></p>
                     <p></p>
-                    <p class="mt-3"><strong>Phone:</strong> <span><a href="tel:+254718654571">+254 718 654 571</a></span></p>
-                    <p><strong>Whatsapp:</strong> <span><a href="https://wa.me/254718654571?text=Hello%2C%20I%20have%20an%20inquiry%20for%20InLaw%20Legal" target="_blank">+254 718 654 571</a></span></p>
-                    <p><strong>Email:</strong> <span><a href="mailto:info@inlaw-legal.tech">info@inlaw-legal.tech</a></span></p>
+                    <p class="mt-3">
+                        <strong>Phone:</strong> <span><a href="tel:+254718654571">+254 718 654 571</a></span> <br>
+                        <strong>Phone:</strong> <span><a href="tel:+254792314330">+254 792 314 330</a></span>
+                    </p> <br>
+                    <p>
+                        <strong>Whatsapp:</strong> <span><a href="https://wa.me/254718654571?text=Hello%2C%20I%20have%20an%20inquiry%20for%20InLaw%20Legal" target="_blank">+254 718 654 571</a></span> <br>
+                        <strong>Whatsapp:</strong> <span><a href="https://wa.me/254792314330?text=Hello%2C%20I%20have%20an%20inquiry%20for%20InLaw%20Legal" target="_blank">+254 792 314 330</a></span>
+                    </p> <br>
+                    <p>
+                        <strong>Email:</strong> <span><a href="mailto:info@inlaw-legal.tech">info@inlaw-legal.tech</a></span>
+                    </p>
                 </div>
                 <div class="social-links d-flex mt-4">
                     <a href=""><i class="bi bi-twitter-x"></i></a>

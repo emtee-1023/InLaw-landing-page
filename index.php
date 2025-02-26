@@ -787,7 +787,8 @@ $pageTitle = "Inlaw | Landing Page";
               <i class="bi bi-telephone flex-shrink-0"></i>
               <div>
                 <h3>Call Us</h3>
-                <a href="tel:+254718654571">+254 718 654 571</a>
+                <a href="tel:+254718654571">+254 718 654 571</a> <br>
+                <a href="tel:+254792314330">+254 792 314 330</a>
               </div>
             </div><!-- End Info Item -->
 
@@ -795,7 +796,8 @@ $pageTitle = "Inlaw | Landing Page";
               <i class="bi bi-whatsapp flex-shrink-0"></i>
               <div>
                 <h3>WhatsApp Us</h3>
-                <a href="https://wa.me/254718654571?text=Hello%2C%20I%20have%20an%20inquiry%20for%20InLaw%20Legal" target="_blank">+254 718654571</a>
+                <a href="https://wa.me/254718654571?text=Hello%2C%20I%20have%20an%20inquiry%20for%20InLaw%20Legal" target="_blank">+254 718 654 571</a> <br>
+                <a href="https://wa.me/254792314330?text=Hello%2C%20I%20have%20an%20inquiry%20for%20InLaw%20Legal" target="_blank">+254 792 314 330</a>
               </div>
             </div><!-- End Info Item -->
 
