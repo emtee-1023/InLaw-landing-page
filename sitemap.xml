@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://inlaw-legal.tech/</loc>
+  <lastmod>2025-06-10T12:04:50+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://inlaw-legal.tech/index</loc>
+  <lastmod>2025-06-10T12:04:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://inlaw-legal.tech/assets/docs/about-us.pdf</loc>
+  <lastmod>2025-01-15T20:35:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://inlaw-legal.tech/assets/docs/T&amp;C.pdf</loc>
+  <lastmod>2025-01-15T20:43:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://inlaw-legal.tech/assets/docs/privacy-policy.pdf</loc>
+  <lastmod>2025-01-15T20:43:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
