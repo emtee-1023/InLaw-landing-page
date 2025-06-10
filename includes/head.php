@@ -2,7 +2,9 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title><?= $pageTitle ?></title>
-    <meta name="description" content="">
+    <meta property="og:title" content="Inlaw Legal – Legal Support in Kenya" />
+    <meta property="og:description" content="Affordable and accessible legal aid platform for Kenyans." />
+    <meta property="og:url" content="https://inlaw-legal.tech" />
     <meta name="keywords" content="">
     <meta name="google-site-verification" content="74O9WLvknyzX_To0DJYuvgfPFcXPP43xR_MTHBFXMUk" />
 
